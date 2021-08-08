@@ -15,14 +15,14 @@ import com.map.utils.Driver;
         public void test() throws Throwable {
             Main.main(new String[]{
                     "--threads", "1",
-                    "-g", "com/map/stepdefination",
+                    "-g", "com/stepdefinition",
                     "-p","pretty",
                     "-p","json:target/cucumberreport.json",
                     "-p","html:target/site/cucumber-report-html",
                     "-p","usage:target/cucumber-usage.json",
                     "-p","pretty:target/cucumber-pretty.txt",
                     "--tags", "@GoogleMap",
-                    "classpath:features/AutomatedFeatureFiles",
+                    "classpath:features",
                     "--no-dry-run"
             });
         }
