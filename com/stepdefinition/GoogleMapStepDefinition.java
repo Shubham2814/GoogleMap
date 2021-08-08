@@ -9,10 +9,6 @@ import com.stepdefination.ContextSteps;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
-import java.util.Map;
-
-import org.slf4j.Logger;
-
 import com.objects.GoogleMapObjects;
 import com.methods.GoogleMapMethods;
 
@@ -20,7 +16,6 @@ public class GoogleMap {
 
 	GoogleMapMethods googlMpMethods =new GoogleMapMethods();
 	GoogleMapObjects googlMpObj = new GoogleMapObjects();
-	Logger LOGGER = LoggerFactory.getLogger(ContextSteps.class);
 
 @Given("^Launch Chrome browser$")
 	public void launch_chrome_browser() throws Throwable {
