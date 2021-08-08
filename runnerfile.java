@@ -22,7 +22,7 @@ import com.map.utils.Driver;
                     "-p","usage:target/cucumber-usage.json",
                     "-p","pretty:target/cucumber-pretty.txt",
                     "--tags", "@GoogleMap",
-                    "classpath:features",
+                    "classpath:featureFile",
                     "--no-dry-run"
             });
         }
