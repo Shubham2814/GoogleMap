@@ -1,4 +1,4 @@
-package com.map.pages;
+package com.methods;
 
 import java.util.ArrayList;
 import java.util.Arrays;

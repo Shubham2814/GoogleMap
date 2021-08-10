@@ -1,4 +1,4 @@
-package com.map.stepdefination;
+package com.stepdefinition;
 
 import cucumber.api.java.en.Given;
 
